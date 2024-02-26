@@ -1,0 +1,48 @@
+.textField {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  color: var(--text-color);
+
+  .label {
+    font: var(--label-font);
+  }
+
+  .input {
+    padding: var(--input-padding);
+    margin: 0;
+    border: 1px solid var(--border-color);
+    border-radius: var(--input-border-radius);
+    background: var(--field-background);
+    font-size: 1.143rem;
+    color: var(--field-text-color);
+    transition: border-color var(--transition-speed);
+
+    &[data-focused] {
+      outline: 2px solid var(--focus-ring-color);
+      outline-offset: -1px;
+    }
+
+    &[data-hovered] {
+      border-color: var(--border-color-hovered);
+    }
+
+    &[data-invalid] {
+      border-color: var(--invalid-color);
+    }
+
+    &[data-disabled] {
+      border-color: var(--border-color-disabled);
+      color: var(--text-color-disabled);
+    }
+  }
+
+  .fieldError {
+    font-size: 12px;
+    color: var(--invalid-color);
+  }
+
+  [slot="description"] {
+    font-size: 12px;
+  }
+}

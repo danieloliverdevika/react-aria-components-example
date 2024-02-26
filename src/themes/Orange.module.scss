@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;800;900&display=swap");
+
+:root[data-theme="orange"] {
+  --color-primary: #ff6b17;
+  --color-disabled: #9ca4ab;
+  --color-hover: #ff975d;
+  --color-pressed: #ff975d;
+
+  --font-style: normal;
+  --font-variant: normal;
+  --font-family: "DM Sans";
+
+  --transition-speed: 150ms;
+
+  --text-color: #000;
+  --text-color-disabled: #000;
+
+  --border-color: #d1d8dd;
+  --border-color-hovered: var(--color-hover);
+  --border-color-pressed: var(--color-pressed);
+  --border-color-disabled: var(--color-disabled);
+
+  --focus-ring-color: var(--color-primary);
+
+  --field-background: #fff;
+  --field-text-color: #000;
+
+  --highlight-background: var(--color-primary);
+  --highlight-background-pressed: var(--color-pressed);
+
+  --invalid-color: red;
+  --invalid-color-pressed: red;
+
+  --gap-small: 8px;
+  --gap-medium: 16px;
+  --gap-large: 32px;
+
+  --card-border-radius: 10px;
+  --card-border: 1px solid #dbdbdb;
+  --card-box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.1);
+  --card-background-color: #fff;
+  --card-padding: 24px;
+
+  --button-border-radius: 8px;
+  --button-padding: 12px 24px;
+  --button-text-color: #fff;
+  --button-background: var(--color-primary);
+  --button-background-pressed: var(--color-pressed);
+  --button-font: var(--font-style) var(--font-variant) 700 14px/22px
+    var(--font-family);
+
+  --label-font: var(--font-style) var(--font-variant) 400 16px/24px
+    var(--font-family);
+
+  --input-font: var(--font-style) var(--font-variant) 700 16px/24px
+    var(--font-family);
+  --input-padding: 11px 16px;
+  --input-border-radius: 8px;
+}

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+:root[data-theme="green"] {
+  --color-primary: #3dfcc2;
+  --color-disabled: #3dfcc280;
+  --color-hover: #6ffdd2;
+  --color-pressed: #6ffdd2;
+
+  --font-style: normal;
+  --font-variant: normal;
+  --font-family: "Poppins";
+
+  --transition-speed: 150ms;
+
+  --text-color: #000;
+  --text-color-disabled: #000;
+
+  --border-color: #c5ffed;
+  --border-color-hovered: var(--color-pressed);
+  --border-color-pressed: var(--color-pressed);
+  --border-color-disabled: var(--color-disabled);
+
+  --focus-ring-color: var(--color-primary);
+
+  --field-background: #defff5;
+  --field-text-color: #000;
+
+  --highlight-background: var(--color-primary);
+  --highlight-background-pressed: var(--color-pressed);
+
+  --invalid-color: red;
+  --invalid-color-pressed: red;
+
+  --gap-small: 8px;
+  --gap-medium: 16px;
+  --gap-large: 32px;
+
+  --card-border-radius: 10px;
+  --card-border: 1px solid #dbdbdb;
+  --card-box-shadow: 0 0 8px #0000001a;
+  --card-background-color: #fff;
+  --card-padding: 20px 26px;
+
+  --button-border-radius: 100px;
+  --button-padding: 12px 24px;
+  --button-text-color: #000;
+  --button-background: var(--color-primary);
+  --button-background-pressed: var(--color-pressed);
+  --button-font: var(--font-style) var(--font-variant) 600 16px/24px
+    var(--font-family);
+
+  --label-font: var(--font-style) var(--font-variant) 400 16px/24px
+    var(--font-family);
+
+  --input-font: var(--font-style) var(--font-variant) 400 16px/24px
+    var(--font-family);
+  --input-padding: 11px 16px;
+  --input-border-radius: 8px;
+}

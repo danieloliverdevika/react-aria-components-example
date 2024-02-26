@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800;900&display=swap");
+
+:root[data-theme="default"] {
+  --color-primary: #f4900e;
+  --color-disabled: #f4900e80;
+  --color-hover: #eeb373;
+  --color-pressed: #eeb373;
+
+  --font-style: normal;
+  --font-variant: normal;
+  --font-family: "Montserrat";
+
+  --transition-speed: 150ms;
+
+  --text-color: #212529;
+  --text-color-disabled: #212529;
+
+  --border-color: var(--color-primary);
+  --border-color-hovered: var(--color-pressed);
+  --border-color-pressed: var(--color-pressed);
+  --border-color-disabled: var(--color-disabled);
+
+  --focus-ring-color: var(--color-primary);
+
+  --field-background: #fff;
+  --field-text-color: #212529;
+
+  --highlight-background: var(--color-primary);
+  --highlight-background-pressed: var(--color-pressed);
+
+  --invalid-color: red;
+  --invalid-color-pressed: red;
+
+  --gap-small: 8px;
+  --gap-medium: 16px;
+  --gap-large: 32px;
+
+  --card-border-radius: 10px;
+  --card-border: 1px solid #dbdbdb;
+  --card-box-shadow: 0 0 8px #0000001a;
+  --card-background-color: #fff;
+  --card-padding: 20px 26px;
+
+  --button-border-radius: 12px;
+  --button-padding: 11px 22px;
+  --button-text-color: #fff;
+  --button-background: var(--color-primary);
+  --button-background-pressed: var(--color-pressed);
+  --button-font: var(--font-style) var(--font-variant) 700 14px/22px
+    var(--font-family);
+
+  --label-font: var(--font-style) var(--font-variant) 400 16px/24px
+    var(--font-family);
+
+  --input-font: var(--font-style) var(--font-variant) 400 16px/24px
+    var(--font-family);
+  --input-padding: 11px 16px;
+  --input-border-radius: 8px;
+}
